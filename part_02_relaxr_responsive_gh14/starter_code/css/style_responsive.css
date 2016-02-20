@@ -292,7 +292,10 @@ footer p {
 }
 
 
-@media screen and (max-width: 768px) {
+/* blog page*/
+
+
+@media only screen and (max-width: 768px) and (min-width: 360px) {
   #relaxr_links{
     display: block;
     float: right;
@@ -376,6 +379,40 @@ footer p {
   padding: 0px 0 10px;
 }
 
+/* blog page*/
+#posts {
+  width: 300px;
+  margin-right: 0px;
+}
+
+.post h2 {
+  font-size: 18px;
+  margin: 10px 10px;
+  }
+
+ .post img {
+  margin-bottom: 15px;
+  width: 100%;
+  }
+
+  .post p {
+  font-size: 16px;
+  }
+
+  #sidebar {
+   width: 120px;
+   display: block;
+   vertical-align: top;
+    float: none;
+  }
+
+  #sidebar h3 {
+  font-size: 20px;
+  }
+
+  #sidebar ul {
+ font-size: 16px;
+  }
 }
 
 
