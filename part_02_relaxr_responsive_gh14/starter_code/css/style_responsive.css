@@ -301,6 +301,12 @@ footer p {
     float: right;
   }
 
+  header .logo {
+    margin-top: 55px;
+    color: #fff;
+    float: left;
+ }
+
   header div nav ul li{
     display: none;
   }
@@ -387,7 +393,7 @@ footer p {
 
 .post h2 {
   font-size: 18px;
-  margin: 10px 10px;
+  /*margin: 10px 10px;*/
   }
 
  .post img {
@@ -400,7 +406,7 @@ footer p {
   }
 
   #sidebar {
-   width: 120px;
+   /*width: 120px;*/
    display: block;
    vertical-align: top;
     float: none;
@@ -410,9 +416,26 @@ footer p {
   font-size: 20px;
   }
 
-  #sidebar ul {
- font-size: 16px;
+ #sidebar ul li a {
+  font-size: 17px;
+ }
+
+ #sidebar p {
+  font-size: 17px;
+  width: 350px;
+  margin-bottom: 92px;
+ }
+
+ #sidebar ul {
+/*  margin-bottom: 15px;*/
+  height: 100px;
+  line-height: 20px;
   }
+
+  #sidebar img {
+    display: none;
+  }
+
 }
 
 
